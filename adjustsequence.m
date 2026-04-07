@@ -23,17 +23,17 @@ zb2 = 0;
 za2 = 0;
 
 % Using an if statement, find the value of zb1 and zb2 below
-if min(n1)<min(n2)
-    zb1 = min(n2) - min(n1);
+if min(n1) < min(n2)
+    zb2 = min(n2) - min(n1);
 else
-    zb2 = min(n1) - min(n2);
+    zb1 = min(n1) - min(n2);
 end
 
 % Using an if statement, find the value of za1 and za2 below
 if max(n1) > max(n2)
-    za1 = max(n21) - max(n2);
+    za2 = max(n1) - max(n2);
 else
-    za2 = max(n2) - max(n1);
+    za1 = max(n2) - max(n1);
 end
 
 %expression for the adjusted sequence x1a and x2a
